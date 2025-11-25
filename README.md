@@ -33,33 +33,6 @@ Everything is fully automated using **Terraform**.
 
 ---
 
-## 📁 Project Structure
-├──Level 1
-  ├── main.tf
-  ├── variables.tf
-  ├── terraform.tfvars
-  ├── userdata.sh
-├──Level 2
-  ├── main.tf
-  ├── variables.tf
-  ├── terraform.tfvars
-  ├── userdata.sh
-└── README.md
-└── .gitignore
-
-
-
----
-
-## 🧩 Prerequisites
-
-- AWS account  
-- IAM user with permissions for EC2, RDS, and VPC  
-- AWS CLI configured  
-- Terraform installed  
-
----
-
 ## ⚙️ Input Parameters
 
 These variables must be set in your `terraform.tfvars`.
